@@ -27,7 +27,7 @@ const InsuranceListCard = ({ item }) => {
                     {
                         item?.SaleClosed
                             ?
-                            <Button className='buy-btn'
+                            <Button className='buy-btn outline-btn'
                                 style={{ borderColor: '#3a83c7', color: '#3a85c7' }}
                                 outline
                             >TELEFONDA SATIN AL</Button>

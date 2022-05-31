@@ -2,7 +2,6 @@
     height: 15%;
     width: 100%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px !important;
-    /* box-shadow: rgba(138, 162, 222, .5) 0px 7px 29px 0px !important; */
     border: none !important;
     display: flex;
     justify-content: center;
@@ -60,4 +59,9 @@
     width: 80%;
     margin-top: 3%;
     float: right;
+}
+
+.outline-btn:hover{
+    background-color: #3a85c7 !important;
+    color: white !important;
 }
