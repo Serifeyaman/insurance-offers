@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button, Card, Col, Row } from 'reactstrap'
-import "assets/css/insuranceCard.css"
 
 const InsuranceListCard = ({ item }) => {
     return (

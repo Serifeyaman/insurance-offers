@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { Button, Card, Col, Row } from 'reactstrap'
 import { getOfferCountCase3, getOffersCase_3 } from 'redux/insuranceOffers/action'
 import { sortedArrayByPrice } from 'utility/ArraySort'
-import "assets/css/offersCount.css"
 import ContentSkeleton from 'components/ContentSkeleton'
 import { Link } from 'react-router-dom'
 

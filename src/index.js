@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'assets/scss/dataLoading.scss'
+import "assets/scss/insuranceCard.scss"
+import "assets/scss/offersCount.scss"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
