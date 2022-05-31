@@ -7,7 +7,7 @@ const InsuranceListCard = ({ item }) => {
         <Card className='mb-2 outCard'>
             <Row className='cardRow'>
                 <Col xl="2" lg="2" md="3" sm="3" xs="2" className='cardImageCol'>
-                    <img src={`${item?.ImagePath}`} width={"70%"} />
+                    <img alt='image' src={`${item?.ImagePath}`} width={"70%"} />
                 </Col>
                 <Col xl="8" lg="7" md="5" sm="6" xs="4" className='cardTitleCol'>
                     <span>

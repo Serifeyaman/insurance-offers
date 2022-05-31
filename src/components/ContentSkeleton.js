@@ -8,8 +8,6 @@ const ContentSkeleton = () => {
             width={window.innerWidth}
             height={"25%"}
             viewBox={`0 0 ${window.innerWidth} 160`}
-            backgroundColor="red"
-            foregroundColor="blue"
             backgroundColor="#f0f0f0"
             foregroundColor="#dedede"
         >
