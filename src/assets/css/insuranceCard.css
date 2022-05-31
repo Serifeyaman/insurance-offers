@@ -1,0 +1,63 @@
+.outCard{
+    height: 15%;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 9px 0px !important;
+    /* box-shadow: rgba(138, 162, 222, .5) 0px 7px 29px 0px !important; */
+    border: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardRow{
+    width: 95%;
+    justify-content: space-between;
+}
+
+.cardImageCol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardTitleCol{
+    display: flex;
+    align-items: center;
+}
+
+.cardTitleCol span{
+    border-left: 2px lightgray solid;
+    padding-left: 3%;
+    width: 100%;
+}
+
+.productDesc-h6{
+    font-weight: 800;
+    margin: 0 !important;
+    font-size: 13px !important;
+}
+
+.discount-p{
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: line-through;
+    margin: 0 !important;
+    display: flex;
+    justify-content: flex-end;
+    color: gray;
+}
+
+.cash-h6{
+    font-weight: 700;
+    margin: 0 !important;
+    font-size: 18px !important;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buy-btn{
+    font-size: 10px !important;
+    width: 80%;
+    margin-top: 3%;
+    float: right;
+}
