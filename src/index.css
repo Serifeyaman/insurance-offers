@@ -26,3 +26,15 @@ code {
   background-color: rgb(243, 243, 243);
 }
 
+.home-btn{
+  background-color: #8aa2de !important;
+  border: none !important;
+}
+
+.back-btn{
+  border-radius: 50% !important;
+  font-weight: bolder !important;
+  background-color: #8aa2de !important;
+  border:none !important;
+}
+
