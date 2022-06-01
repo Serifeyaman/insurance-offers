@@ -16,7 +16,7 @@ export const SkeletonShow = ({ offerCount, offerList }) => {
 const Task3 = () => {
 
   const [offerList, setOfferList] = useState([])
-  const { case3OfferData, case3LoadingData, offerCount } = useSelector(state => state.OffersReducer)
+  const { case3OfferData, offerCount, offerCountLoadingData } = useSelector(state => state.OffersReducer)
   const dispatch = useDispatch()
 
   useEffect(() => {
@@ -35,7 +35,7 @@ const Task3 = () => {
     <div className='main-div'>
       <div style={{ height: '85%', width: '85%', overflow: 'scroll', position: 'relative' }}>
         {
-          case3LoadingData ?
+          offerCountLoadingData ?
             <DataLoading />
             :
             <>
